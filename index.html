@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm ABC - 23_3</title>
+    <link rel="stylesheet" href="css/default.css">
+</head>
+
+<body>
+
+    <!-- PHẦN HEADER CỦA TRANG -->
+    <header class="page-header" role="banner">
+        <div class="header-inner">
+            <a class="brand" href="#" aria-label="Nhóm ABC - Trang chủ">
+                <div class="logo">ABC</div>
+                <div>
+                    <div class="brand-title">Nhóm ABC</div>
+                    <div class="brand-subtitle">Dự án lớp - 23_3</div>
+                </div>
+            </a>
+            <nav class="nav" role="navigation" aria-label="Chức năng">
+                <a href="#team">Thành viên</a>
+                <a href="#gallery">Khoảnh khắc</a>
+            </nav>
+        </div>
+
+        <div class="hero">
+            <h1>Nhóm ABC</h1>
+            <p class="subtitle">Chào mừng đến với dự án của chúng tôi </p>
+        </div>
+    </header>
+
+    <!-- PHẦN NỘI DUNG CHÍNH -->
+    <main class="container">
+
+        <section id="team" class="team-section" aria-labelledby="team-heading">
+            <h2 id="team-heading">Thành viên Nhóm</h2>
+            <div class="member-grid">
+                <!-- Member 1 -->
+                <a class="member-card" href="members/23120358/23120358.html" aria-label="Xem trang Nguyễn Tiến Thành">
+                    <img src="members/23120358/images/23120358.jpg" alt="Nguyễn Tiến Thành" class="card-thumb">
+                    <div class="member-name">Nguyễn Tiến Thành</div>
+                    <div class="card-mssv">MSSV: 23120358</div>
+                </a>
+
+                <!-- Member 2 -->
+                <a class="member-card" href="members/23120399/23120399.html" aria-label="Xem trang Nguyễn Sơn Tùng">
+                    <img src="members/23120399/images/23120399.png" alt="Nguyễn Sơn Tùng" class="card-thumb">
+                    <div class="member-name">Nguyễn Sơn Tùng</div>
+                    <div class="card-mssv">MSSV: 23120399</div>
+                </a>
+
+                <!-- Member 3 -->
+                <a class="member-card" href="members/23120372/23120372.html" aria-label="Xem trang Phan Trung Tín">
+                    <img src="members/23120372/images/23120372.jpg" alt="Phan Trung Tín" class="card-thumb">
+                    <div class="member-name">Phan Trung Tín</div>
+                    <div class="card-mssv">MSSV: 23120372</div>
+                </a>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h2>Khoảnh khắc nhóm</h2>
+            <p>Ảnh tập thể của nhóm — click để truy cập trang cá nhân của từng Thành viên.</p>
+            <img src="images/GroupPhoto.png" alt="Ảnh nhóm" class="group-photo" usemap="#groupmap">
+
+            <map name="groupmap">
+                <!-- vùng người 1 -->
+                <area shape="poly"
+                    coords="622,455,600,468,588,477,574,497,580,524,586,552,592,562,600,589,592,604,576,609,560,621,548,641,540,661,537,686,540,711,548,745,552,770,552,789,544,822,550,851,558,879,568,897,573,913,574,939,574,955,576,982,588,1020,594,1042,597,1065,608,1110,608,1125,625,1182,784,1181,774,1110,769,1079,770,1047,769,994,766,933,772,889,780,861,792,827,804,809,815,786,816,768,812,745,786,666,773,617,741,601,713,592,672,565,682,550,686,528,678,497,675,474,657,463"
+                    href="members/23120358/23120358.html" alt="Nguyễn Tiến Thành" title="Nguyễn Tiến Thành">
+                <!-- vùng người 2 -->
+                <area shape="poly"
+                    coords="459,517,432,508,404,514,385,532,380,554,381,578,392,604,399,626,384,636,363,644,332,667,317,693,303,727,302,756,297,791,307,805,325,806,339,803,343,823,342,850,331,880,323,915,322,942,327,964,330,982,327,1008,327,1026,336,1050,340,1074,340,1086,335,1120,334,1146,334,1173,340,1181,515,1182,514,1139,505,1091,510,1058,516,998,521,932,520,878,516,827,540,823,555,793,548,732,536,690,529,663,489,637,468,629,463,604,472,583,477,555,472,529"
+                    href="members/23120399/23120399.html" alt="Nguyễn Sơn Tùng" title="Nguyễn Sơn Tùng">
+                <!-- vùng người 3 -->
+                <area shape="poly"
+                    coords="189,487,156,503,133,522,141,550,140,574,151,585,153,610,139,621,115,634,92,646,71,658,61,682,57,708,49,735,49,766,49,794,48,823,45,847,53,881,57,911,61,939,64,959,64,986,68,1006,83,1030,83,1084,85,1097,81,1145,81,1153,78,1173,76,1183,243,1181,245,1162,245,1136,242,1108,245,1084,248,1056,255,1032,257,1003,258,991,266,994,279,995,285,986,294,977,291,959,285,919,293,880,288,830,289,800,290,742,285,687,280,658,229,634,216,615,220,598,232,574,236,556,236,530,231,501,225,489,196,485,173,490"
+                    href="members/23120372/23120372.html" alt="Phan Trung Tín" title="Phan Trung Tín">
+            </map>
+
+        </section>
+
+    </main>
+
+    <!-- PHẦN FOOTER CỦA TRANG -->
+    <footer class="site-footer">
+        <p>&copy; 2025 - Nhóm ABC. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
